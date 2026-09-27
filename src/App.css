@@ -1,0 +1,40 @@
+.env-banner {
+  color: #fff;
+  text-align: center;
+  padding: 6px;
+  font-weight: 700;
+}
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+.chollos {
+  list-style: none;
+  padding: 0;
+}
+.chollos li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+.chollos small {
+  display: block;
+  opacity: 0.7;
+}
+.precio {
+  font-weight: 700;
+  white-space: nowrap;
+}
+.precio s {
+  font-weight: 400;
+  opacity: 0.6;
+}
+footer {
+  text-align: center;
+  padding: 24px 16px;
+  font-size: 14px;
+  opacity: 0.8;
+}
